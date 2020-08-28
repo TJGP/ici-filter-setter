@@ -1,0 +1,130 @@
+Tjek 7.1-3 om kommentar i filteropsætter
+
+NEED:
+
+MINOR:
+D/F-konsekvens fejl - unabled, bør kunne sættes ved 'Kan'
+D/F-options fejl - mangler sammenhæng til konsekvens
+D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
+*Kommentar mulig for slukkede regler
+  Der mangler kommentar til 6.20 ved ingen periode
+  Ditto ved ingen kommentar
+Fjern fejl ved X,Esc,Annuller af Vælg fil i 'Indlæs fil'
+
+NICE:
+*merge af genererede filer
+*export til eksisterende opsætningsfil
+*kopiering til SharePoint og check in
+Winmerge sammenligning uden regeltekst
+Kommentar om min 10 år for D/F
+*Auto opstart af opsætter, når config-fil er indlæst (der er trykket Hent)
+*Enable og Cancel på 'Indlæs fra fil'
+Deaktivér, at der spørges om at gemme ændringer i Filteropsætter efter brug:
+  Sub Auto_Close()
+      ThisWorkbook.Saved = True
+  End Sub
+Tilføj 'med hensyn til FOKO-lukkedag' i skema, hvis tændt
+Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil
+Disable eller fjern 'Til SharePoint' (eller få det til at virke igen...)
+Liste med FH-ID vs FH-navn, så navn vises på 1ste fane, og hvis navn mangler skal det kunne indsætte herfra
+
+*versionsfane
+*copy/paste-fejl i CollectOptions
+*formulering af 'kalender..'
+*nyeste regelformuleringer (FOKO-lukkedag, omvendte 10'er m fed...)
+*udvid FT-beskrivelsesfelt
+*hård/blød (fælles klik)
+*kommentarer (fælles klik)
+*Kommentarer skal indlæse gl kommentar i inputboks
+*indlæs fra fil
+periode på 10'er
+  formulering af 10'er-periode
+*fjern '-' i tekst til R1.1
+*FT-beskrivelse på Specification mangler ved reset
+*Formulering bliver ikke resat ved reset
+
+FIX:
+*formateringsfejl af tal Configuration
+*hvis gl-fil = ny-fil vises den ikke i GUI
+
+
+validering:
+*FH-ID kun 2-4 tal
+*FT-ID præcis 7 bogstaver
+*advar om udfyldte RF-regler ved skift til HF
+*advar om udfyldte perioderegler ved Ingen periode
+
+
+------------
+Fra JIRA:
+
+*Tilpasning af tekster og Reset
+*Finpuds tekster, tilføj validering
+*Tilføj kolonne i Formulering m regelnavne
+[v1.1]
+
+*Import fra fil
+*Få konsekvensknapper til at skifte tekst ved tryk
+
+Diverse:
+Valider data ved indlæs fra allerede opsat - FH-ID, FT-ID, FT-beskrivelse
+*Gør indtastningsfelt for FT-beskrivelse breddere, så man kan se hele teksten
+*Gør indtastningsfelt for Beskrivelse breddere, så man kan se hele teksten
+D/F's Hård/Blød-knap opdateres først når side forlades, dvs. man skal forlade side for at enable den
+*FIX - Periodes 'option kan' sætter andre datoers options til 'kan'
+*FIX - Rettet typefejl i validering - tal opfattes som tekst..
+
+*Tilføj snippet for præcist beløb i R_4_2
+Validering af beløb og antal
+*Kommentarer i Configuration
+-----------
+
+
+---
+
+Ikke implementeret:
+R_3_2
+R_3_3
+R_3_4a
+R_3_4
+R_3_5
+R_3_6
+
+R_4_5
+R_4_6
+
+Mangler Konsekvens ved fuld indlæsning - kommer dog ved faneskift:
+R_4_2
+R_4_3
+R_4_5
+R_4_6
+
+R_6_1
+R_6_2
+
+R_6_9
+R_6_10
+R_6_11
+R_6_12
+R_6_13
+R_6_14
+
+R_7_8
+
+R_8_1
+R_9_1
+R_10_1
+R_10_2
+R_10_3
+R_10_4
+R_10_5
+R_10_6
+R_10_7
+R_10_8
+R_10_9
+R_10_10
+::
+
+
+
+
