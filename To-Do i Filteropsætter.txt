@@ -3,6 +3,7 @@ Tjek 7.1-3 om kommentar i filteropsætter
 NEED:
 
 MINOR:
+*Ret R_9_1: 'relateret' til 'relaterede' når quantity <> 1
 D/F-konsekvens fejl - unabled, bør kunne sættes ved 'Kan'
 D/F-options fejl - mangler sammenhæng til konsekvens
 D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
