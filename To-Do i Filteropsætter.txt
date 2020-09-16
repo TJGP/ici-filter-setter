@@ -4,7 +4,7 @@ NEED:
 *Ny Regel: R_9_2: Der kan højest være {0} relatere{1} fordring{2} af denne fordringstype
 
 MINOR:
-Tilpas GUI-højde til standard-pc
+*Tilpas GUI-højde til standard-pc
 periode på 10'er
   formulering af 10'er-periode
 D/F-konsekvens fejl - unabled, bør kunne sættes ved 'Kan'
@@ -18,10 +18,10 @@ D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
 *Kommentar 'do' i 7.10 ved kommentar i 7.9
 
 NICE:
-Foranstil FH-Id i genereret filnavn
-Winmerge sammenligning uden regeltekst
+Foranstil FH-Id i genereret filnavn, evt. valgbart
+*Winmerge sammenligning uden regeltekst - dan nye temp xlsx-filer uden kolonne og sammenlign disse
 Tilføj 'med hensyn til FOKO-lukkedag' i skema, hvis tændt
-Kommentar om min 10 år for D/F (hvor?)
+Kommentar om min 10 år for D/F (hvor?)s
 Liste med FH-ID vs FH-navn, så navn vises på 1ste fane, og hvis navn mangler skal det kunne indsætte herfra (a la ConsoleWriter)
 Tilføj manglende regler i gl. filteropsætninger/opdatér filer med gl. opsætning
 ?Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil
