@@ -4,6 +4,7 @@ NEED:
 *Ny Regel: R_9_2: Der kan højest være {0} relatere{1} fordring{2} af denne fordringstype
 
 MINOR:
+*Ret tekst til FRA og TIL i forhold til MOD på periodefane
 *Tilpas GUI-højde til standard-pc
 periode på 10'er
   formulering af 10'er-periode
