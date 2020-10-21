@@ -25,7 +25,7 @@ Tilføj 'med hensyn til FOKO-lukkedag' i skema, hvis tændt
 Kommentar om min 10 år for D/F (hvor?)s
 *Liste med FH-ID vs FH-navn, så navn vises på 1ste fane (Fordring)
 Hvis navn mangler på FH-ID-liste skal det kunne indsætte fra Fordring-fane
-Tilføj manglende regler i gl. filteropsætninger/opdatér filer med gl. opsætning
+*Tilføj manglende regler i gl. filteropsætninger/opdatér filer med gl. opsætning
 ?Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil
 *merge af genererede filer
 *export til eksisterende opsætningsfil
