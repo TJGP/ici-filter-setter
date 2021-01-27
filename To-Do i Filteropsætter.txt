@@ -1,9 +1,14 @@
 Tjek 7.1-3 om kommentar i filteropsætter (?)
 
 NEED:
+*Indsæt nyt fh-id for Region Sjælland 3014, Uddannelsesinstitutioner 9908, samt 9906 og 9907
+Fjern R_8_1 fra view som minimum
+  evt. fjern helt og tilpas normalizer
 *Ny Regel: R_9_2: Der kan højest være {0} relatere{1} fordring{2} af denne fordringstype
 
 MINOR:
+Fjern subscriptrfejl, når FT findes på Spec, men ikke på Conf
+Der indsættes True efter FH-ID ved indtast af for mange tegn på fane Fordring
 *Ret tekst til FRA og TIL i forhold til MOD på periodefane
 *Tilpas GUI-højde til standard-pc
 periode på 10'er
@@ -19,12 +24,13 @@ D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
 *Kommentar 'do' i 7.10 ved kommentar i 7.9
 
 NICE:
-Foranstil FH-Id i genereret filnavn, evt. valgbart
+Foranstil FH-Id i genereret filnavn, evt. valgbart. Eller som feature i FO...
+Autogen af kommentartekst, hvis tom ved aktivering
 *Winmerge sammenligning uden regeltekst - dan nye temp xlsx-filer uden kolonne og sammenlign disse
 Tilføj 'med hensyn til FOKO-lukkedag' i skema, hvis tændt
 Kommentar om min 10 år for D/F (hvor?)s
 *Liste med FH-ID vs FH-navn, så navn vises på 1ste fane (Fordring)
-Hvis navn mangler på FH-ID-liste skal det kunne indsætte fra Fordring-fane
+Hvis navn mangler på FH-ID-liste skal det kunne indsætte fra Fordring-fane (problem > kræver at ændring gemmes...)
 *Tilføj manglende regler i gl. filteropsætninger/opdatér filer med gl. opsætning
 ?Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil
 *merge af genererede filer
