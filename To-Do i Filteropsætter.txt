@@ -1,12 +1,18 @@
 Tjek 7.1-3 om kommentar i filteropsætter (?)
 
-NEED:
+#Tilføj FH-IDs:
+*4017	Blistrup Sogns Menighedsråd
+*4020	Sønderholm – Frejlev Sogne
+*4021	Ishøj Sogns Menighedsråd
+*4023, 4024, 4025 + 28 flere
+
+#NEED:
 *Indsæt nyt fh-id for Region Sjælland 3014, Uddannelsesinstitutioner 9908, samt 9906 og 9907
-Fjern R_8_1 fra view som minimum
+*Fjern R_8_1 fra view som minimum > usynlig
   evt. fjern helt og tilpas normalizer
 *Ny Regel: R_9_2: Der kan højest være {0} relatere{1} fordring{2} af denne fordringstype
 
-MINOR:
+#MINOR:
 Fjern subscriptrfejl, når FT findes på Spec, men ikke på Conf
 Der indsættes True efter FH-ID ved indtast af for mange tegn på fane Fordring
 *Ret tekst til FRA og TIL i forhold til MOD på periodefane
@@ -23,7 +29,9 @@ D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
 *Fjern fejl ved X,Esc,Annuller af Vælg fil i 'Indlæs fil'
 *Kommentar 'do' i 7.10 ved kommentar i 7.9
 
-NICE:
+#NICE:
+*Ret font > kan ikke matche original, bedste bud Tahoma 8 pkt
+*Skriv 'max' i regel for beløb pr dag > stod der allerede, væk pga linjeskift
 Foranstil FH-Id i genereret filnavn, evt. valgbart. Eller som feature i FO...
 Autogen af kommentartekst, hvis tom ved aktivering
 *Winmerge sammenligning uden regeltekst - dan nye temp xlsx-filer uden kolonne og sammenlign disse
@@ -58,7 +66,7 @@ Hvis navn mangler på FH-ID-liste skal det kunne indsætte fra Fordring-fane (prob
 *FT-beskrivelse på Specification mangler ved reset
 *Formulering bliver ikke resat ved reset
 
-FIX:
+#FIX:
 *formateringsfejl af tal Configuration
 *hvis gl-fil = ny-fil vises den ikke i GUI
 
