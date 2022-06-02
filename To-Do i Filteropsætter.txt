@@ -26,16 +26,17 @@ Tjek 7.1-3 om kommentar i filteropsætter (?)
 *4098	Ballerup Sogns Menighedsråd
 *4100	Snejbjerg Menighedsråd / Snejbjerg Kirke
 *4102 til 4113...
+*4114 til 4116 til 4131
 
 #NEED:
-R_7_12 Indsæt -1 i den anden, hvis enten Dom eller Forlig skal være udfyldt (har 1). Lige nu sættes vist 0, hvilket ikke giver mening...
+*R_7_12 Indsæt -1 i den anden, hvis enten Dom eller Forlig skal være udfyldt (har 1). Lige nu sættes vist 0, hvilket ikke giver mening...
 *Indsæt nyt fh-id for Region Sjælland 3014, Uddannelsesinstitutioner 9908, samt 9906 og 9907
 *Fjern R_8_1 fra view som minimum > usynlig
   evt. fjern helt og tilpas normalizer
 *Ny Regel: R_9_2: Der kan højest være {0} relatere{1} fordring{2} af denne fordringstype
 
 #MINOR:
-Ændr validering af langt fordringshavernavn, så æøå tæller som to tegn og max 60
+*Ændr validering af langt fordringshavernavn, så æøå tæller som to tegn og max 60
 Fjern subscriptfejl, når FT findes på Spec, men ikke på Conf
 Der indsættes True efter FH-ID ved indtast af for mange tegn på fane Fordring
 Normalisering fejler tit halvvejs med index-fejl på fx 1233 v0.0
@@ -43,8 +44,8 @@ Normalisering fejler tit halvvejs med index-fejl på fx 1233 v0.0
 *Tilpas GUI-højde til standard-pc
 periode på 10'er
   formulering af 10'er-periode
-D/F-konsekvens fejl - unabled, bør kunne sættes ved 'Kan'
-D/F-options fejl - mangler sammenhæng til konsekvens
+*D/F-konsekvens fejl - unabled, bør kunne sættes ved 'Kan'
+*D/F-options fejl - mangler sammenhæng til konsekvens
 D/F kommentar ved forlængelse af FOKO ligger ikke ud for...
 *Kommentar mulig for slukkede regler
   Der mangler kommentar til 6.20 ved ingen periode (?)
@@ -66,7 +67,7 @@ Kommentar om min 10 år for D/F (hvor?)
 *Liste med FH-ID vs FH-navn, så navn vises på 1ste fane (Fordring)
 Hvis navn mangler på FH-ID-liste skal det kunne indsætte fra Fordring-fane (problem > kræver at ændring gemmes...)
 *Tilføj manglende regler i gl. filteropsætninger/opdatér filer med gl. opsætning
-?Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil
+?Giv svar, når merge er færdig, fx om hvilke filer der blev merget ind i navngiven modtagerfil [måske med hurtig timer]
 *merge af genererede filer
 *export til eksisterende opsætningsfil
 *kopiering til SharePoint og check in
