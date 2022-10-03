@@ -39,7 +39,8 @@ Tjek 7.1-3 om kommentar i filteropsætter (?)
 *Ændr validering af langt fordringshavernavn, så æøå tæller som to tegn og max 60
 Fjern subscriptfejl, når FT findes på Spec, men ikke på Conf
 Der indsættes True efter FH-ID ved indtast af for mange tegn på fane Fordring
-Normalisering fejler tit halvvejs med index-fejl på fx 1233 v0.0
+Normalisering fejler af og til halvvejs med index-fejl på fx 1233 v0.0 pga. kolonneforskel
+*Normalisering fejler tit halvvejs med index-fejl på fx 1233 v0.0
 *Ret tekst til FRA og TIL i forhold til MOD på periodefane
 *Tilpas GUI-højde til standard-pc
 periode på 10'er
